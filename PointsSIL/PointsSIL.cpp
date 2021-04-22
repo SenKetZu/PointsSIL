@@ -10,7 +10,7 @@ int main()
 	};
 
 
-
+	std::cout << "Z=A(X)+B(Y)" << std::endl;
 
 
 
