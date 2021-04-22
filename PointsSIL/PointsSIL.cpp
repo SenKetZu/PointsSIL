@@ -5,8 +5,8 @@ int main()
 
 	struct Point
 	{
-		int x;
-		int y;
+		float x;
+		float y;
 	};
 
 
@@ -17,11 +17,11 @@ int main()
 	std::vector<Point> puntos;
 
 	//Z=A(X)+B(Y);
-	int a;
+	float a;
 	std::cout << "insert A"<<std::endl;
 	std::cin >> a;
 
-	int b;
+	float b;
 	std::cout << "insert B" << std::endl;
 	std::cin >> b;
 
@@ -40,7 +40,7 @@ int main()
 	}
 	for (int i = 0; i < cant; ++i)
 	{
-		int res = (a * puntos[i].x) + (b * puntos[i].y);
+		float res = (a * puntos[i].x) + (b * puntos[i].y);
 		std::cout << "en el punto " << (i + 1) << " Z es: " << res << std::endl;
 
 	}
